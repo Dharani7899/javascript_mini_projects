@@ -1,0 +1,45 @@
+h2{
+    text-align:center;
+}
+.inputdiv{
+    text-align:center;
+    margin-top:50px;
+}
+#butt{
+    text-align:center;
+    margin-top:19px;
+}
+#wrapper{
+    border-color:black;
+    border-style:solid;
+    margin-bottom:50px;
+    padding-bottom:50px;
+    padding-left:19px;
+    width:500px;
+    margin-left:500px;
+    margin-top:250px;
+    height:500px;
+    background-color: aquamarine;
+
+}
+#inside{
+  background-color: aqua;
+  height:300px;
+  width:450px;
+  margin-left:19px;
+  border-color:greenyellow;
+  border-style:outset;
+  border-top:45px;
+  margin-top:90px;
+}
+#input{
+    width:200px;
+    border-radius:5px;;
+}
+body{
+    background-color:cadetblue;
+}
+#res{
+    margin-top:50px;
+    margin-left:12px;
+}
