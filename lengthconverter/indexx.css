@@ -1,0 +1,75 @@
+#h1{font-family: 'Dancing Script', cursive;
+text-align:center;
+color:white;
+background-color: #333;
+text-decoration:underline;
+font-size:55px;
+padding:50px;
+border-style:solid;
+border-radius: 20px;
+border-width:thick;
+border-color:black;
+}
+#item{
+ display:inline;
+}
+.fa-solid{
+    color:gainsboro;
+    padding:10px;
+}
+#div1{
+   
+    border-style: solid;
+    overflow:hidden;border-radius: 20px;
+    
+
+    
+}
+#h1,#div1{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:palegreen;
+}
+#div2{
+    margin:50px 50px;
+    text-align:center;
+    border-style:inset;
+    background-color:aqua;
+}
+#h3{
+    text-align:center;
+     border-color:gold;
+     height:150px;
+     background-color:peachpuff;
+     border-style:outset;
+     width:250px;
+    margin-top:33px;
+     margin-top:50px;
+     margin: 44px auto auto auto;
+     
+    
+}
+#div3{
+    border-color: #333;
+    
+}
+#box{
+    width:200px;
+    height:100px;
+    margin-top:20px;
+    font-size:30px;
+
+}
+#button{
+    width:400px;
+    height: 75px;
+    margin-top:50px;
+}
+#ans{
+    font-size:44px;
+    padding-top:100px;
+    padding-bottom:100px;
+    
+}
