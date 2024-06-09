@@ -1,0 +1,8 @@
+p {
+  color: black !important;
+  font-style: italic;
+  font-weight: 1000;
+  border-style: groove;
+  border-radius: 10%;
+  background-color: cyan;
+}
