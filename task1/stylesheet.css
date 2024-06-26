@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #55354f;
+  font-family: sans-serif;
+  outline: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  background-color: #ecf0f3;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+}
+input {
+  grid-column: span 4;
+  height: 70px;
+  width: 222px;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px #ffffff,
+    inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 30px;
+  color: rgba(70, 70, 70);
+  font-size: 50px;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  height: 40px;
+  width: 40px;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 50%;
+  margin: 8px;
+  font-size: 16px;
+}
+.equal {
+  width: 185px;
+  border-radius: 40px;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+  font-size: larger;
+}
+.calculator {
+  background-color: white;
+}
+#cl.hover {
+  background-color: white;
+}
+.calculator #cl {
+  background-color: rgb(244, 196, 48);
+}
+.calculator #cl:hover {
+  background-color: rgb(224, 17, 95);
+}
+.calculator #dl:hover {
+  background-color: rgb(244, 9, 181);
+}
+.calculator #dl {
+  background-color: rgb(164, 90, 82);
+}
+.calculator #sy {
+  background-color: rgb(112, 130, 56);
+}
+.calculator #sy:hover {
+  background-color: rgb(41, 171, 135);
+}
+.calculator #nu {
+  background-color: #0dbae1;
+}
+.calculator #nu:hover {
+  background-color: #f16343;
+}
+.calculator #eq {
+  background-color: #bd8581;
+}
+.calculator #eq:hover {
+  background-color: #894a2d;
+}
+.calculator {
+  filter: invert(95%) hue-rotate(180deg);
+}
+.calculator:hover {
+  filter: invert(95%) hue-rotate(180deg);
+}
+.dark-mode {
+  background-color: #2c2c2c;
+  color: #ecf0f3;
+  box-shadow: -5px -5px 12px #222, 5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+.dark-mode input {
+  background-color: #444;
+  color: #ecf0f3;
+}
+
+.dark-mode button {
+  background-color: #444;
+  color: #ecf0f3;
+}
+
+.dark-mode .equal {
+  background-color: #666;
+}
+
+.dark-mode #cl {
+  background-color: rgb(244, 196, 48);
+}
+
+.dark-mode #cl:hover {
+  background-color: rgb(224, 17, 95);
+}
+
+.dark-mode #dl {
+  background-color: rgb(164, 90, 82);
+}
+
+.dark-mode #dl:hover {
+  background-color: rgb(244, 9, 181);
+}
+
+.dark-mode #sy {
+  background-color: rgb(112, 130, 56);
+}
+
+.dark-mode #sy:hover {
+  background-color: rgb(41, 171, 135);
+}
+
+.dark-mode #nu {
+  background-color: #0dbae1;
+}
+
+.dark-mode #nu:hover {
+  background-color: #f16343;
+}
+
+.dark-mode #eq {
+  background-color: #bd8581;
+}
+
+.dark-mode #eq:hover {
+  background-color: #894a2d;
+}
+#he center h1 {
+  background-color: #be93d4;
+  padding: 8px;
+  color: black;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.calculator {
+  cursor: pointer;
+}
+.calculator button {
+  cursor: pointer;
+}
