@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="he">
+      <center><h1>Simple Calculator</h1></center>
+    </div>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" placeholder="0" id="output-screen" />
+        <button onclick="clearInput()" id="cl">CL</button>
+        <button onclick="del()" id="dl">DEL</button>
+        <button onclick="display('%')" id="sy">%</button>
+        <button onclick="display('/')" id="sy">/</button>
+        <button onclick="display('7')" id="nu">7</button>
+        <button onclick="display('8')" id="nu">8</button>
+        <button onclick="display('9')" id="nu">9</button>
+        <button onclick="display('*')" id="sy">*</button>
+        <button onclick="display('4')" id="nu">4</button>
+        <button onclick="display('5')" id="nu">5</button>
+        <button onclick="display('6')" id="nu">6</button>
+        <button onclick="display('-')" id="sy">-</button>
+        <button onclick="display('1')" id="nu">1</button>
+        <button onclick="display('2')" id="nu">2</button>
+        <button onclick="display('3')" id="nu">3</button>
+        <button onclick="display('+')" id="sy">+</button>
+        <button onclick="display('.')" id="sy">.</button>
+        <button onclick="display('0')" id="nu">0</button>
+        <button onclick="display('(')" id="sy">(</button>
+        <button onclick="display(')')" id="sy">)</button>
+        <button class="btn" id="dark-mode" onclick="white()">🌙</button>
+        <button onclick="calculate()" class="equal" id="eq">=</button>
+        <br />
+        <br />
+      </div>
+    </div>
+    <script>
+      let outputscreen = document.getElementById("output-screen");
+      function display(num) {
+        outputscreen.value += num;
+      }
+      function calculate() {
+        try {
+          outputscreen.value = eval(outputscreen.value);
+        } catch (eer) {
+          alert("invalid");
+        }
+      }
+      function clearInput() {
+        outputscreen.value = "";
+      }
+      function del() {
+        outputscreen.value = outputscreen.value.slice(0, -1);
+      }
+      function white() {
+        const calculator = document.querySelector(".calculator");
+        calculator.classList.toggle("dark-mode");
+        document.getElementById("dark-mode").style.cursor = "pointer";
+      }
+    </script>
+  </body>
+</html>
